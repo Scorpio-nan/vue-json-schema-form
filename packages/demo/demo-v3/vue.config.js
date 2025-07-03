@@ -31,7 +31,7 @@ log({
 const isProduction = process.env.NODE_ENV === 'production';
 
 // config var
-const outputDir = isProduction ? path.resolve(__dirname, './dist/v3') : path.resolve(__dirname, './dist');
+const outputDir = isProduction ? path.resolve(__dirname, '../demo-v2/dist/v3') : path.resolve(__dirname, './dist');
 
 module.exports = {
     // cdn
